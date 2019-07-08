@@ -58,4 +58,4 @@ Zuletzt, um sich die Liste anzeigen zu lassen:
 
 `extract.sh` mit Editor öffnen, den ersten Befehl auskommentieren, den zweiten entkommentieren dannach aufrufen mit:
 
-      ./extract.sh
+    ./extract.sh
