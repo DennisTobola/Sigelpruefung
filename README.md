@@ -3,9 +3,10 @@
 Diese Skripte laden alle Seiten des Sigelverzeichnisses herunter und prüfen diese auf folgende URLs:
 
 Hildesheim Beispiel:
-SRU: http://sru.gbv.de/opac-de-hil2
-PAIA: https://paia.gbv.de/DE-Hil2/
-DAIA: https://paia.gbv.de/DE-Hil2/daia
+
+- SRU: http://sru.gbv.de/opac-de-hil2
+- PAIA: https://paia.gbv.de/DE-Hil2/
+- DAIA: https://paia.gbv.de/DE-Hil2/daia
 
 Diese URLs werden dann in eine Liste geschrieben, sodass man das Vorhandensein überprüfen kann.
 
