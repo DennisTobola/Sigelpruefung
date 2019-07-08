@@ -46,14 +46,19 @@ Zuletzt, um sich die Liste anzeigen zu lassen:
 
 - Histogramm erstellen: 
 
-    jq -r '.[].APIs[]'  library-apis.json | sort | uniq -c | sort -n
     
+        jq -r '.[].APIs[]'  library-apis.json | sort | uniq -c | sort -n
+    
+
 - JSON-Ansicht:
 
+
     cat library-apis.json | jq
+
 
 - API-Typen ermitteln mit `api-Types_fix.txt`:
 
 `extract.sh` mit Editor öffnen, den ersten Befehl auskommentieren, den zweiten entkommentieren dannach aufrufen mit:
+
 
     ./extract.sh
