@@ -1,0 +1,10 @@
+do pica_each("009Q")
+  if pica_match('009Q$z','W')
+    pica_map('009Q$x','test.$append')
+  end
+end 
+
+retain(test)
+select exists(test)
+
+

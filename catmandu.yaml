@@ -1,0 +1,14 @@
+---
+importer:
+  unicat:
+    package: SRU
+    options:
+       base: http://services.dnb.de/sru/bib
+       recordSchema: marcxml
+       parser: marcxml
+
+importer:
+  plain:
+    package: PICA
+    options:
+      type: plain

@@ -1,0 +1,21 @@
+pica_map('008H$e','isil')
+
+do pica_each('009Q')
+  if pica_match('009Q$z','W')
+    if pica_match('009Q$x','PAIA')
+      pica_map('009Q$u','paia')
+    end
+    if pica_match('009Q$x','DAIA')
+      pica_map('009Q$u','daia')
+    end
+  else    
+    if pica_match('009Q$x','SRU')
+      pica_map('009Q$u','sru')
+    end
+  end
+end 
+
+remove_field('_id')
+remove_field('record')
+
+
