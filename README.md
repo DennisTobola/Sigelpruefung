@@ -10,7 +10,7 @@ Hildesheim Beispiel:
 
 Diese URLs werden dann in eine Liste geschrieben, sodass man das Vorhandensein überprüfen kann.
 
-[**Format**](https://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/)
+[**Formatdokumentation**](https://sigel.staatsbibliothek-berlin.de/vergabe/adressenformat/)
 
 [**Beispiel**](https://services.dnb.de/sru/bib?operation=searchRetrieve&query=isl%3DDE-Hil2&recordSchema=PicaPlus-xml&version=1.1)
 
@@ -44,15 +44,15 @@ Zuletzt, um sich die Liste anzeigen zu lassen:
     
 ### Mit Dateien arbeiten
 
-Histogramm erstellen: 
+- Histogramm erstellen: 
 
-    jq -r '.[].APIs[]'  finalList.txt | sort | uniq -c | sort -n
+    jq -r '.[].APIs[]'  library-apis.json | sort | uniq -c | sort -n
     
-JSON-Ansicht:
+- JSON-Ansicht:
 
     cat library-apis.json | jq
 
-API-Typen ermitteln mit `api-Types_fix.txt`:
+- API-Typen ermitteln mit `api-Types_fix.txt`:
 
 `extract.sh` mit Editor öffnen, den ersten Befehl auskommentieren, den zweiten entkommentieren dannach aufrufen mit:
 
